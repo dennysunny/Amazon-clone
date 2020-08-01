@@ -1,0 +1,10 @@
+.checkout {
+    margin-bottom: px;
+    flex-direction: row;
+}
+
+.image {
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
