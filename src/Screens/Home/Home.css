@@ -1,0 +1,21 @@
+.home {
+    max-width: 1500;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.homeproduct {
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.banner {
+   width: 100%;
+   mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)); 
+   /* 1 is opacity of top part, which is no and 0 is the opacity to the bottom of image */
+   z-index: -1;
+   margin-bottom: -150px;
+}
